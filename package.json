@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "@cypress/xpath": "^2.0.3",
-    "cypress": "^13.6.4"
+    "cypress": "^14.0.0"
   }
 }
