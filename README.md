@@ -7,7 +7,7 @@ home-task-fe is a automation testing frameework to test the knowledge of automat
 Clone or download the project
 
 ```bash
-git clone https://github.com/lutr01/home-task-fe.git
+git clone https://github.com/CsabaGF/pms-qa-technical-challenge-fe
 ```
 
 install the npm (please make sure you have nodejs on your machine)
