@@ -9,6 +9,9 @@
       },
       "Logout": {
         "CSS": "[id='logout_sidebar_link']"
+      },
+      "Cart": {
+        "CSS": ".shopping_cart_link"
       }
     },
     "Fields": {
@@ -19,7 +22,26 @@
         "CSS": "[data-test='password']"
       }
     },
-    "Selects": {}
+    "Selects": {},
+    "Products": {
+      "Product - Sauca Labs Bike Light": {
+        "CSS": "#add-to-cart-sauce-labs-bike-light"
+      },
+      "Product - Sauca Labs Backpack": {
+        "CSS": "#add-to-cart-sauce-labs-backpack"
+      },
+      "Product - Sauca Labs Bolt T-Shirt": {
+        "CSS": "#add-to-cart-sauce-labs-bolt-t-shirt"
+      },
+      "Product - Sauca Labs Flee Jacket": {
+        "CSS": "#add-to-cart-sauce-labs-fleece-jacket"
+      }
+    },
+    "CartElements": {
+      "Cart Product Name": {
+        "CSS": ".inventory_item_name"
+      }
+    }
   },
 
   "Home": {

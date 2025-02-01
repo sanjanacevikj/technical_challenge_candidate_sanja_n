@@ -21,3 +21,13 @@ Feature: Authentication
     Examples:
         | user   | errorMessage                          | welcomeMessage |
         | Locked | Sorry, this user has been locked out. | Swag Labs      |
+
+    Scenario Outline: Validate Invalid Login
+        Given I navigate to the page: "Home"
+        Then I see text "<welcomeMessage>" on the page
+        When I login as a "<user>" user
+        Then I see text "<errorMessage>" on the page
+
+        Examples:
+            | user    | errorMessage                                                               | welcomeMessage |
+            | Invalid | Epic sadface: Username and password do not match any user in this service  | Swag Labs      |

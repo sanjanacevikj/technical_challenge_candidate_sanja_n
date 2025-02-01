@@ -23,6 +23,14 @@ export const getPage = (pageName) => {
       ...page.Selects,
       ...pages.Common.Selects,
     },
+    products: {
+      ...page.Products,
+      ...pages.Common.Products,
+    },
+    cartElements: {
+      ...page.CartElements,
+      ...pages.Common.CartElements,
+    }
   };
 };
 

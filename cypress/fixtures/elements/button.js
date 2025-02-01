@@ -8,3 +8,11 @@ export const clickButton = (buttonName) => {
   cy.get(locator.CSS).should("not.be.disabled");
   cy.get(locator.CSS).scrollIntoView().click();
 };
+
+export const clickAddToCartOnProduct = (productName) => {
+  const page = getCurrentPage();
+  const locator = page.products[productName];
+  cy.wait(500);
+  cy.get(locator.CSS).should("not.be.disabled");
+  cy.get(locator.CSS).scrollIntoView().click();
+};

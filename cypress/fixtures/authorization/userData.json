@@ -6,5 +6,9 @@
   "Locked": {
     "Username": "locked_out_user",
     "Password": "secret_sauce"
+  },
+  "Invalid": {
+    "Username": "invalid_user",
+    "Password": "invalid_password"
   }
 }
